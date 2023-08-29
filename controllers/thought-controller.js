@@ -68,7 +68,7 @@ const ThoughtController = {
     try {
       const thought = await Thought.findOneAndUpdate(
         { _id: req.params.thoughtId },
-        { $addToSet: { reactions: req.body } },
+        { $addToSet: { reactions: new Reaction(req.body) } }, // Creating a new Reaction instance
         { runValidators: true, new: true }
       );
       thought ? res.json(thought) : res.status(404).json({ message: 'Not found' });
@@ -85,13 +85,13 @@ const ThoughtController = {
         { $pull: { reactions: { reactionId: req.params.reactionId } } },
         { runValidators: true, new: true }
       );
-
+  
       thought ? res.json(thought) : res.status(404).json({ message: 'Not found' });
     } catch (e) {
       res.status(500).json(e);
     }
-  },
-};
+  }}
+  ;
 
 // Export ThoughtController
 module.exports = ThoughtController;

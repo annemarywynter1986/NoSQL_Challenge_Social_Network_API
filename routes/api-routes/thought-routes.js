@@ -13,18 +13,18 @@ const {
 
 // Routes for managing Thoughts
 router.route('/')
-  .get(getAllThoughts)
-  .post(createThought);
+  .get(getAllThoughts)       // Get all thoughts
+  .post(createThought);      // Create a new thought
 
 router.route('/:thoughtId')
-  .get(getThoughtsById)
-  .put(updateThoughtById)
-  .delete(deleteThought);
+  .get(getThoughtsById)      // Get a thought by ID
+  .put(updateThoughtById)    // Update a thought by ID
+  .delete(deleteThought);    // Delete a thought by ID
 
 router.route('/:thoughtId/reactions')
-  .post(createReaction);
+  .post(createReaction);     // Create a new reaction for a thought
 
 router.route('/:thoughtId/reactions/:reactionId')
-  .delete(deleteReaction);
+  .delete(deleteReaction);   // Delete a reaction from a thought
 
 module.exports = router;

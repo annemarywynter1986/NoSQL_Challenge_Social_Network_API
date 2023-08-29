@@ -37,4 +37,4 @@ const reactionSchema = new Schema(
 );
 
 // Export the reaction schema
-module.exports = reactionSchema;
+module.exports = reactionSchema; // Export as 'reactionSchema' instead of 'Reaction' i had originally
