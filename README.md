@@ -20,6 +20,23 @@ Anne Mary Wynter's NoSQL Social Network API is a Node.js application programming
 
 ## Overview
 
+<img width="1277" alt="Screen Shot 2023-08-29 at 12 14 35 AM" src="https://github.com/annemarywynter1986/NoSQL_Challenge_Social_Network_API/assets/130412307/5745bfc0-05ae-4a33-9cf7-02764d89d7f3">
+
+<img width="1311" alt="Screen Shot 2023-08-29 at 12 14 43 AM" src="https://github.com/annemarywynter1986/NoSQL_Challenge_Social_Network_API/assets/130412307/555e673b-cb62-44ce-8ca7-408f5fa94df5">
+
+<img width="1289" alt="Screen Shot 2023-08-29 at 12 14 53 AM" src="https://github.com/annemarywynter1986/NoSQL_Challenge_Social_Network_API/assets/130412307/0aa7341a-ace4-4f2a-8fe3-579bf1eac1c1">
+
+<img width="1306" alt="Screen Shot 2023-08-29 at 12 15 02 AM" src="https://github.com/annemarywynter1986/NoSQL_Challenge_Social_Network_API/assets/130412307/bfce73e0-be6d-4995-b140-4a2205d005bd">
+
+
+
+## GitHub Repository:
+https://github.com/annemarywynter1986/NoSQL_Challenge_Social_Network_API.git
+
+## Walkthrough Video:
+https://drive.google.com/file/d/1OjEM14FZfd70H_xPoiJvLD2z3iA9uKUU/view?usp=sharing
+
+
 ### The Challenge
 
 The challenge was to build a RESTful API that allows a social media startup to perform CRUD operations on users, thoughts, and reactions data models using a NoSQL database. The API must be built using Node.js and Mongoose and provide endpoints that can handle large amounts of unstructured data.
